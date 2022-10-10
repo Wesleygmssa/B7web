@@ -31,6 +31,17 @@ function comercarEtapa() {
 }
 
 function atualizaInterface() {
+    let etapa = etapas[etapasAtual]; //Array com dados da etapa atual
+    let candidato = etapa.candidatos.filter((item) => {
+        if (item.numero === numero) {
+            return true;
+        } else {
+            return false;
+        }
+
+    });
+
+    console.log('cadi', candidato);
 
 }
 
