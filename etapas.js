@@ -3,10 +3,10 @@ let etapas = [{
         numeros: 5,
         candidatos: [{
                 numero: '38111',
-                nome: 'Fulano de Tal',
+                nome: 'Wesley Guerra',
                 partido: 'ABC',
                 fotos: [
-                    { url: '38111.jpg', legenda: 'Vereador', small: false }
+                    { url: 'https://github.com/wesleygmssa.png', legenda: 'Vereador', small: false }
                 ]
             },
             {
@@ -14,7 +14,7 @@ let etapas = [{
                 nome: 'Beltrano da Silva',
                 partido: 'DEFG',
                 fotos: [
-                    { url: '77222.jpg', legenda: 'Vereador' }
+                    { url: 'https://github.com/Marcelocerqueira.png', legenda: 'Vereador' }
                 ]
             },
         ]
